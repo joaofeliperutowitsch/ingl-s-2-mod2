@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@media (max-width:500px){
+
+    body{
+        background-color: #F1B641;
+    }
+
+    .section-header{
+        align-items: center;
+        background-color: #ffecc0;
+        display: flex;
+        margin-left: 3rem;
+        margin-top: 30px;
+        border: solid;
+        border-radius: 2rem;
+        width: 80%;
+        justify-content: space-around;
+    }
+    
+    .img-header{
+        width: 40px;
+    }
+
+    .img-food{
+        text-align: center;
+    }
+
+    .img-food img{
+        width: 60vw;
+        height: 45vh;
+    }
+
+    .price{
+        align-items: center;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .passion{
+        font-size: 2rem;
+    }
+
+    .revenue{
+        font-size: 1.2rem;
+        padding: 20px;
+    }
+
+    .text-hint{
+        padding: 20px;
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+
+    .text-hint p{
+        width: 60%;
+    }
+
+    form{
+        padding: 20px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    button{
+        width: 300px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        border-radius: 6px;
+        position: relative;
+        left: 4rem;
+        bottom: 0;
+    }
+
+}
